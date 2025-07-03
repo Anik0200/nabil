@@ -1,0 +1,119 @@
+@media (max-width: 575.98px) {
+  /* commpon css start  */
+  .card .text h1 {
+    font-size: 10px;
+  }
+
+  .card .text p {
+    font-size: 8px;
+  }
+
+  .card button {
+    font-size: 10px;
+  }
+  /* commpon css end  */
+
+  /* navbar start  */
+  .navbar .navbar-brand {
+    font-size: 20px;
+  }
+
+  .navbar .menu {
+    gap: 10px;
+  }
+
+  .navbar .menu li a {
+    font-size: 14px;
+  }
+  /* navbar start  */
+
+  /* auction start  */
+
+  .title h2 {
+    font-size: 18px;
+  }
+
+  .auction {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  /* auction end  */
+
+  /* regular start  */
+  .regular {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* regular end  */
+
+  /* footer start  */
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  footer .text ul {
+    display: flex;
+    gap: 5px;
+  }
+
+  footer .text ul li a {
+    font-size: 8px;
+  }
+
+  footer .icon ul {
+    display: flex;
+    gap: 5px;
+  }
+
+  footer .icon ul li a {
+    font-size: 12px;
+  }
+  /* footer end  */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* navbar start  */
+  .navbar .navbar-brand {
+    font-size: 25px;
+  }
+
+  .navbar .menu {
+    gap: 10px;
+  }
+
+  .navbar .menu li a {
+    font-size: 16px;
+  }
+  /* navbar start  */
+
+  /* auction start  */
+
+  .title h2 {
+    font-size: 20px;
+  }
+
+  .auction {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #f2f2f2;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  /* auction end  */
+
+  /* regular end  */
+  .regular {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* regular end  */
+}

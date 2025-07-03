@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p,
+span,
+a {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  transform: none;
+  z-index: 1111;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  color: greenyellow;
+  font-size: 30px;
+  z-index: 9999;
+}
+
+/* basic css end  */
+
+/* Commom css start */
+.title h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d8a24a;
+  position: relative;
+  display: inline-block;
+}
+
+.title h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #d8a24a;
+  width: 100%;
+}
+
+.card {
+  background-color: #ffffff;
+  margin-top: 20px;
+  position: relative;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.status {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.card .text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card .text h1 {
+  font-size: 14px;
+  color: #d8a24a;
+}
+
+.card .text p {
+  margin-top: 2px;
+  font-size: 10px;
+  color: #d8a24a;
+}
+
+.card .text span {
+  margin-left: 10px;
+}
+/* Commom css end */
+
+/* navbar start  */
+.navbar .navbar-brand {
+  color: #f9f8f6;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar .navbar-brand span {
+  color: #d8a24a;
+}
+
+.navbar .navbar-brand:hover {
+  color: #f9f8f6;
+}
+
+.navbar .menu {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar .menu li a {
+  transition: 0.3s ease-in-out;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.navbar .menu li:hover a {
+  color: #fae6bf !important;
+}
+/* navbar end  */
+
+/* auction start  */
+.auction {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* auction end  */
+
+/* regular start  */
+.regular {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+/* regular end  */
+
+/* footer start  */
+footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer .text ul {
+  display: flex;
+  gap: 10px;
+}
+
+footer .icon ul {
+  display: flex;
+  gap: 10px;
+}
+
+footer .text ul li a {
+  color: #fae6bf;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer .icon ul li a {
+  font-size: 18px;
+}
+/* footer end  */
